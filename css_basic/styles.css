@@ -11,6 +11,20 @@ main{
 
 article {
     flex: 2;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    font font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+}
+
+p {
+   color: #666;
+   line-height: 1.5;
 }
 
 aside {
@@ -19,4 +33,10 @@ aside {
 
 article, aside {
     overflow-y: auto;
+}
+
+.meter{
+    min-height: 15px;
+    /* styling properties */
+    position: relative;
 }
