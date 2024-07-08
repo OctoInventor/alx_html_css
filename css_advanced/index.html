@@ -4,205 +4,243 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/4a2b055604.js" crossorigin="anonymous"></script>
-    <title>Smileschool</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-    <header>
-        <nav>
-            <img src="assets/logo.png" alt="logo">
-          
-            <ul>
+    <header class="header">
+        <nav class="navigation">
+            <div class="logo">
+                <img src="./assets/logo.png" alt="logo">
+            </div>
+            <ul class="nav-list">
                 <li><a href="#">COURSE</a></li>
                 <li><a href="#">PRICING</a></li>
                 <li><a href="#">LOGIN</a></li>
             </ul>
-        </nav>
-        
+        </nav>  
     </header>
+
     <main>
-        <section>
-            <div>
-                <h1>Get schooled</h1>
-                <span>SMILES</span>
-                <span>GRIN</span>
-                <span>LAUGH</span>
-                <button>REGISTER FOR FREE</button>
+        <section class="main-logo">
+            <div class="upper-logo">
+                <div class="main-text" id="getschooled">
+                    <h1>Get schooled</h1>
+                </div>
+                <div class="values" id="values">
+                    <span>SMILES</span>
+                    <span>GRIN</span>
+                    <span>LAUGH</span>
+                </div>
+                <div class="register-button">
+                    <button>REGISTER FOR FREE</button>
+                </div>
             </div>
-            <div>
-                <h2>Learn from the pros</h2>
-                <div>
+            <div class="learn-part">
+                <div class="slogan">
+                    <h2><span class="purple">Learn</span> from the pros</h2>
+                </div>
+                <div class="pros">
                     <div>
-                        <img src="assets/Philip.png" alt="">
+                        <img src="./assets/Philip.png" alt="">
                         <h3>Phillip Massey</h3>
-                        <p>« Smile of the year » 2018 - 2019</p>
+                        <p>« Smile of the year »<br>2018 - 2019</p>
                     </div>
                     <div>
-                        <img src="assets/Nannie.png" alt="">
+                        <img src="./assets/Nannie.png" alt="">
                         <h3>Nannie Lawrence</h3>
-                        <p>Best « little smile » 2017</p>
+                        <p>Best « little smile »<br>2017</p>
                     </div>
                     <div>
-                        <img src="assets/Walter.png" alt="">
+                        <img src="./assets/Walter.png" alt="">
                         <h3>Bruce Walters</h3>
-                        <p>Best « Friend Smile » live performance 2019</p>
+                        <p>Best « Friend Smile »<br>live performance 2019</p>
                     </div>
                     <div>
-                        <img src="assets/Henry.png" alt="">
+                        <img src="./assets/Henry.png" alt="">
                         <h3>Henry Hughes</h3>
-                        <p>« 24h smiles » winner 2016 - 2019</p>
+                        <p>« 24h smiles » winner<br>2016 - 2019</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="testimony">
             <div>
                 <img src="./assets/Bruce.png" alt="image">
             </div>
             <div>
-                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better place to learn smiling. And it’s so fun!</blockquote>
-                <h3>Person Name</h3>
-                <P>weather presenter</P>
+                <blockquote>« Those tutorials are concise and go straight to the point. I can’t think of a better <br> place to learn smiling. And it’s so fun!</blockquote>
+                <h3>NAME</h3>
+                <P>Person Name</P>
             </div>
         </section>
-        <section>
-            <h2>Most popular tutorials</h2>
-            <div>
-                <img src="./assets/9.png" alt="video imagge">
+        <section class="tutorials">
+            <h2>Most <span>popular</span> tutorials</h2>
+            <div class="all-tutorial">
+            <div class="each-tutorial">
+                <img src="./assets/9.png" alt="video-01.mp4" class="main-img">
                 <h3>Diagonal Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="./assets/Philip.png" alt="video image">
+                <div class="reviewer">
+                    <img src="./assets/Philip.png" alt="">
                     <h4>Phillip Massey</h4>
                 </div>
-                <div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
+                <div class="score-number">
+                    <div class="score">
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starnocolor"><i class="fa-solid fa-star"></i></div> 
+                    </div>
+                    <div class="number">
+                    <p>5 min</p>
+                    </div>
                 </div>
-                <p>5 min</p>
             </div>
-            <div>
-                <img src="./assets/7.png" alt="video image">
+            <div class="each-tutorial">
+                <img src="./assets/7.png" alt="video-02.mp4">
                 <h3>Sad Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="assets/Philip.png" alt="small image">
+                <div class="reviewer">
+                    <img src="./assets/Philip.png" alt="">
                     <h4>Phillip Massey</h4>
                 </div>
-                <div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
+                <div class="score-number">
+                    <div class="score">
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starnocolor"><i class="fa-solid fa-star"></i></div> 
+                    </div>
+                    <div class="number">
+                    <p>5 min</p>
+                    </div>
                 </div>
-                <p>5 min</p>
             </div>
-            <div>
-                <img src="./assets/8.png" alt="video image">
+            <div class="each-tutorial">
+                <img src="./assets/8.png" alt="video-03.mp4">
                 <h3>Natural Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="assets/Philip.png" alt="small image">
+                <div class="reviewer">
+                    <img src="./assets/Philip.png" alt="">
                     <h4>Phillip Massey</h4>
                 </div>
-                <div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
+                <div class="score-number">
+                    <div class="score">
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starnocolor"><i class="fa-solid fa-star"></i></div> 
+                    </div>
+                    <div class="number">
+                    <p>5 min</p>
+                    </div>
                 </div>
-                <p>5 min</p>
             </div>
-            <div>
-                <img src="./assets/6.png" alt="video image">
+            <div class="each-tutorial">
+                <img src="./assets/6.png" alt="video-04.mp4">
                 <h3>Happy Smile</h3>
                 <p>Lorem ipsum dolor sit amet, consect adipiscing elit, sed do eiusmod.</p>
-                <div>
-                    <img src="./assets/Philip.png" alt="small image">
+                <div class="reviewer">
+                    <img src="./assets/Philip.png" alt="">
                     <h4>Phillip Massey</h4>
                 </div>
-                <div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
-                    <div><i class="fa-solid fa-star"></i></div>
+                <div class="score-number">
+                    <div class="score">
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starcolor"><i class="fa-solid fa-star"></i></div>
+                        <div id="starnocolor"><i class="fa-solid fa-star"></i></div> 
+                    </div>
+                    <div class="number">
+                    <p>5 min</p>
+                    </div>
                 </div>
-                <p>5 min</p>
+            </div>
             </div>
         </section>
-        <section>
-            <h2>Free membership</h2>
-            <div>
-                <img src="./assets/smile.png" alt="smile icon">
+        <section class="free-membership">
+            <h2><span>Free</span> membership</h2>
+            <div class="types">
+            <div class="each-type">
+                <img src="./assets/smile.png" alt="smile icon.png">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./assets/smile.png" alt="smile icon">
+            <div class="each-type">
+                <img src="./assets/smile.png" alt="smile icon.png">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./assets/smile.png" alt="smile icon">
+            <div class="each-type">
+                <img src="./assets/smile.png" alt="smile icon.png">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <div>
-                <img src="./assets/smile.png" alt="smile icon">
+            <div class="each-type">
+                <img src="./assets/smile.png" alt="smile icon.png">
                 <h3>Lorem Ipsum</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </div>
-            <button>REGISTER FOR FREE</button>
+            </div>
+            <div class="register-button">
+                <button>REGISTER FOR FREE</button>
+            </div>
         </section>
-        <section>
+        <section class="faq">
             <h2>F.A.Q</h2>
-            <div>
-                <div>
+            <div class="grid-container">
+                <div class="row">
+                    <div class="column">
                     <div>
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
-
+                    </div>
+                    <div class="column">
                     <div>
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
                     </div>
                 </div>
-                <div>
+                <div class="row">
+                    <div class="column">
                     <div>
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </div>
+                    </div>
+                    <div class="column">
                     <div>
                         <h3>How does this work?</h3>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
                     </div>
                 </div>
             </div>
         </section>
     </main>
     <footer>
-        <section>
-            <div>
-                <img src="assets/logo.png" alt="logo">
-                <div>
-                    <i class="fa-brands fa-facebook"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-instagram"></i>
+        <section class="footer-content">
+            <div class="logo-socials">
+                <img src="./assets/logo.png" alt="logo">
+                <div class="logos">
+                    <i class="fa-brands fa-facebook" style="color: white; font-size:24px"></i>
+                    <i class="fa-brands fa-twitter" style="color: white; font-size:24px"></i>
+                    <i class="fa-brands fa-instagram" style="color: white; font-size:24px"></i>
                 </div>
             </div>
             <p>©smileschool 2020</p>
