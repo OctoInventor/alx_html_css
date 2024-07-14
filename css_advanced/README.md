@@ -1,5 +1,5 @@
 # HTML and CSS Advanced project
-This is a web page project that is built with only HTML and CSS. It has various sections such as the header, banner, videos, quote, membership, FAQ, and footer. The layout and designs are implemented with the wireframe privided.
+This is a web page project that is built with only HTML and CSS. It has various sections such as what we do, our services, contact us, and a footer. The layout and designs are implemented with the wireframe privided.
 
 Structure of the project
 - **index.html** : The main HTML file contains the structure of the web page.
