@@ -1,3 +1,6 @@
+A responsive web page for showcasing a range of headphones. This project follows the design specifications provided in the Figma design
+file and implements interactive features for an enhanced user experience.
+
 # HTML and CSS Advanced project
 This is a web page project that is built with only HTML and CSS. It has various sections such as what we do, our services, contact us, and a footer. The layout and designs are implemented with the wireframe privided.
 
@@ -25,4 +28,3 @@ Process
 NOTE:
 The required fonts must be installed on your computer to use it for the
 project. The font can be downloaded here:[Sourcesanspro] https://www.fontsquirrel.com/fonts/source-sans-pro and [SpinCycleOT] https://www.fontsquirrel.com/fonts/Spin-Cycle-OT.
-    
