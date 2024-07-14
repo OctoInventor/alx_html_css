@@ -1,0 +1,59 @@
+/* Pentagons */
+.pentagon {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+}
+
+.pentagon::before {
+    content: '';
+    position: absolute;
+    top: -35%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(72deg);
+}
+
+.pentagon::after {
+    content: '';
+    position: absolute;
+    top: -35%;
+    left: -5%;
+    width: 110%;
+    height: 110%;
+    background-color: #FF6565;
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    transform: rotate(-72deg);
+}
+
+/* Additional Styling */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.results {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.result {
+    text-align: center;
+    width: 30%;
+}
+
+.result h3 {
+    margin-top: 20px;
+}
+
+.result p {
+    color: #666;
+    line-height: 1.6;
+}
